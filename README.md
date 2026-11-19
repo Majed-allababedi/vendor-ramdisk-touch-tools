@@ -8,6 +8,12 @@ Move one known-working touchscreen firmware file from an older **same-hardware**
 
 [Find your model in the sourced touchscreen report index](docs/galaxy-touchscreen-after-update.md). It covers Galaxy S21, S21+, S21 Ultra and S21 FE, plus reports for S22 Ultra, S23, S23 Ultra, Galaxy A-series and selected M-series, Z Fold and Z Flip devices. The index distinguishes loss of finger touch, S Pen-only input and intermittent or charging-only symptoms. **Only the SM-G998B/HZA6 release has a physical repair test here.**
 
+## License
+
+Copyright © 2026 Majed-allababedi. The project's original code and documentation are licensed under Ojuba's **Waqf General Public License 2.0**. The [Arabic original](LICENSE) is authoritative; the [English translation](LICENSE.en.txt) is provided for convenience. Both texts come from [Ojuba's license repository](https://github.com/ojuba-org/waqf/tree/fda6cd52912125e05162316edc305567fbdb7c97/2.0).
+
+This change does not revoke MIT permissions already granted for earlier copies. Third-party dependencies and Samsung firmware, including firmware in release assets, are not relicensed by this project.
+
 ## What is portable?
 
 The Python CLI has no model table, controller address, panel filename or per-device offset. It reads the header and archive entries, then uses the exact firmware path and hashes you supply. **Format support is not universal device support.** Only the SM-G998B case below was physically tested. Matching filenames alone do not establish controller compatibility.
