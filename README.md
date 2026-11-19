@@ -4,6 +4,10 @@ Move one known-working touchscreen firmware file from an older **same-hardware**
 
 **Start here:** [Galaxy S21 Ultra SM-G998B: worked example, commands and reference hashes](examples/SM-G998B.md).
 
+## Samsung Galaxy touchscreen not working after a One UI update?
+
+[Find your model in the sourced touchscreen report index](docs/galaxy-touchscreen-after-update.md). It covers Galaxy S21, S21+, S21 Ultra and S21 FE, plus reports for S22 Ultra, S23, S23 Ultra, Galaxy A-series and selected M-series, Z Fold and Z Flip devices. The index distinguishes loss of finger touch, S Pen-only input and intermittent or charging-only symptoms. **Only the SM-G998B/HZA6 release has a physical repair test here.**
+
 ## What is portable?
 
 The Python CLI has no model table, controller address, panel filename or per-device offset. It reads the header and archive entries, then uses the exact firmware path and hashes you supply. **Format support is not universal device support.** Only the SM-G998B case below was physically tested. Matching filenames alone do not establish controller compatibility.
